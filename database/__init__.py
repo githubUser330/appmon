@@ -15,7 +15,7 @@
  # limitations under the License.
 ###
 
-import dataset, json, time, htmlentities
+import dataset, json, time
 import platform as platform_module
 from xml.sax.saxutils import escape
 
@@ -36,8 +36,8 @@ def save_to_database(db_path, str_json):
       module=str_json['lib'],
       remark=''))
   except Exception as e:
-    print str(e)
-    print str_json
+    print(str(e))
+    print(str_json)
 
 def stringify(data):
   str_data = ""
@@ -62,7 +62,7 @@ def read_from_database(db_path, index=0):
     child_holder.append(capture['method'])
     str_artifact = ''
     artifacts = json.loads(capture['artifact'])
-    
+
     for artifact in artifacts:
       if "name" in artifact:
         artifact_name = artifact['name']
