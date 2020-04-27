@@ -1,3 +1,7 @@
+**with Python 3 support**
+
+**Basic usage**
+
 iOS:
 
     python appmon.py -p ios --spawn 1 -s scripts/iOS -a MyApp
