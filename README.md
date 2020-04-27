@@ -1,7 +1,9 @@
 iOS:
 
-    python appmon.py -p ios --spawn 1 -s scripts/iOS -a Application
+    python appmon.py -p ios --spawn 1 -s scripts/iOS -a MyApp
 
+=> Wait until "Dumped to ./app_dumps/MyApp.db"
+=> open http://127.0.0.1:5000/
 
 ![](https://raw.githubusercontent.com/dpnishant/appmon/master/resources/logo.png)
 Welcome to AppMon!
