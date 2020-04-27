@@ -1,3 +1,8 @@
+iOS:
+
+    python appmon.py -p ios --spawn 1 -s scripts/iOS -a Application
+
+
 ![](https://raw.githubusercontent.com/dpnishant/appmon/master/resources/logo.png)
 Welcome to AppMon!
 ==================
